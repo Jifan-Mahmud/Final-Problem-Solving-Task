@@ -285,3 +285,64 @@ var timeConversion = function(s) {
   }
   return `${hours}:${minutes}:${seconds}`;
 };
+
+
+// 21. String Repeat
+// Return a string repeated exactly n times.
+
+/**
+  * @param {number} n
+  * @param {string} s
+  * @return {string}
+  */
+var repeatStr = function(n, s) {
+  return s.repeat(n);
+};
+
+
+// 22. Reversed Strings
+// Return the given string with its characters in reverse order.
+
+/**
+  * @param {string} str
+  * @return {string}
+  */
+var solution = function(str) {
+  return str.split("").reverse().join("");
+};
+
+
+// 23. Sum of Positive
+// Return the sum of all positive numbers in an array. Return 0 if there are none.
+
+/**
+  * @param {number[]} arr
+  * @return {number}
+  */
+var positiveSum = function(arr) {
+  return arr.reduce((sum, num) => (num > 0 ? sum + num : sum), 0);
+};
+
+
+// 24. Grasshopper - Summation
+// Return the sum of all integers from 1 through n.
+
+/**
+  * @param {number} num
+  * @return {number}
+  */
+var summation = function(num) {
+  return (num * (num + 1)) / 2;
+};
+
+
+// 25. Convert a Boolean to a String
+// Convert a boolean value into the string "true" or "false".
+
+/**
+  * @param {boolean} b
+  * @return {string}
+  */
+var booleanToString = function(b) {
+  return String(b);
+};
