@@ -46,3 +46,14 @@ var evenOrOdd = function(number) {
 var makeNegative = function(number) {
   return number <= 0 ? number : -number;
 };
+
+// 05. Opposite Number
+// Return the opposite of a given number.
+
+/**
+  * @param {number} number
+  * @return {number}
+  */
+var opposite = function(number) {
+  return -number;
+};
