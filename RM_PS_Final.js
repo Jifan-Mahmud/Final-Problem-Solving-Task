@@ -69,3 +69,16 @@ var opposite = function(number) {
 var simpleArraySum = function(ar) {
   return ar.reduce((sum, num) => sum + num, 0);
 };  
+
+
+// 07. sleepIn
+// Return true if it is not a weekday or you are on vacation.
+
+/**
+  * @param {boolean} weekday
+  * @param {boolean} vacation
+  * @return {boolean}
+  */
+var sleepIn = function(weekday, vacation) {
+  return !weekday || vacation;
+};
