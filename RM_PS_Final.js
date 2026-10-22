@@ -23,3 +23,15 @@ var solveMeFirst = function(a, b) {
 var multiply = function(a, b) {
   return a * b;
 };
+
+
+// 03. Even or Odd
+// Write a function that returns "Even" when a number is even and "Odd" when it is odd.
+
+/**
+  * @param {number} number
+  * @return {string}
+  */
+var evenOrOdd = function(number) {
+  return number % 2 === 0 ? "Even" : "Odd";
+};
