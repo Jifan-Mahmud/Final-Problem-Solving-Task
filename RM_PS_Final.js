@@ -57,3 +57,15 @@ var makeNegative = function(number) {
 var opposite = function(number) {
   return -number;
 };
+
+
+// 06. Simple Array Sum
+// Return the sum of all integers in an array.
+
+/**
+  * @param {number[]} ar
+  * @return {number}
+  */
+var simpleArraySum = function(ar) {
+  return ar.reduce((sum, num) => sum + num, 0);
+};  
