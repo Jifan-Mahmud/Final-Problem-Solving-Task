@@ -35,3 +35,14 @@ var multiply = function(a, b) {
 var evenOrOdd = function(number) {
   return number % 2 === 0 ? "Even" : "Odd";
 };
+
+// 04. Return Negative
+// Return the negative value of a number. If it is already negative, keep it negative.
+
+/**
+  * @param {number} number
+  * @return {number}
+  */
+var makeNegative = function(number) {
+  return number <= 0 ? number : -number;
+};
