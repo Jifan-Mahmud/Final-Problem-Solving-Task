@@ -82,3 +82,16 @@ var simpleArraySum = function(ar) {
 var sleepIn = function(weekday, vacation) {
   return !weekday || vacation;
 };
+
+
+// 08. monkeyTrouble
+// Two monkeys are in trouble if both are smiling or neither is smiling. Return true in that case.
+
+/**
+  * @param {boolean} aSmile
+  * @param {boolean} bSmile
+  * @return {boolean}
+  */
+var monkeyTrouble = function(aSmile, bSmile) {
+  return aSmile === bSmile;
+};
