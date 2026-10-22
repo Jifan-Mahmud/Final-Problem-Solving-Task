@@ -95,3 +95,17 @@ var sleepIn = function(weekday, vacation) {
 var monkeyTrouble = function(aSmile, bSmile) {
   return aSmile === bSmile;
 };
+
+
+
+// 09. sumDouble
+// Return the sum of two integers, but return double the sum when they are equal.
+
+/**
+  * @param {number} a
+  * @param {number} b
+  * @return {number}
+  */
+var sumDouble = function(a, b) {
+  return a === b ? 2 * (a + b) : a + b;
+};
