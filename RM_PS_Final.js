@@ -109,3 +109,16 @@ var monkeyTrouble = function(aSmile, bSmile) {
 var sumDouble = function(a, b) {
   return a === b ? 2 * (a + b) : a + b;
 };
+
+
+
+// 10. diff21
+// Return the absolute difference between n and 21, doubling it when n is greater than 21.
+
+/**
+  * @param {number} n
+  * @return {number}
+  */
+var diff21 = function(n) {
+  return n > 21 ? 2 * (n - 21) : 21 - n;
+};
